@@ -52,8 +52,6 @@ def apply_coupons(cart, coupons)
   #
   
   # Iterate through items in cart, check each item against the coupon array
-  pp cart
-  pp coupons
   cart_index = 0
   while cart_index < cart.length do
     # Check if item has a coupon...
@@ -73,7 +71,6 @@ def apply_coupons(cart, coupons)
     end
     cart_index += 1
   end
-  pp cart
   cart
 end
 
